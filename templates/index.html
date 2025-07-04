@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block content %}
+  <h2>Welcome to Medical Insurance Cost Predictor 🩺</h2>
+  <p>Click below to start prediction.</p>
+  <a href="{{ url_for('form') }}">
+    <button>Start Prediction</button>
+  </a>
+{% endblock %}
